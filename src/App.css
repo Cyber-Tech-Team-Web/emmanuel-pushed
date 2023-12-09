@@ -1,0 +1,31 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.border-b-1 {
+    border-bottom: 1px solid lightgrey;
+}
+
+#heropic{
+    background-image: url('./assets/heropic.jpg');
+    background-position: center;
+    background-size: cover;
+
+
+}
+#herosmall{
+    background-image: url('./assets/herosmall.jpg');
+    background-position: center;
+    width: fit-content;
+    height: fit-content;
+    background-repeat: no-repeat;
+
+
+
+}
